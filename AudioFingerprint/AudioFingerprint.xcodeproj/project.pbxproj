@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB564B1F1E26F0D8007C2E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB564B1E1E26F0D8007C2E66 /* main.m */; };
+		FB564B221E26F0D8007C2E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB564B211E26F0D8007C2E66 /* AppDelegate.m */; };
+		FB564B251E26F0D8007C2E66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB564B241E26F0D8007C2E66 /* ViewController.m */; };
+		FB564B281E26F0D8007C2E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB564B261E26F0D8007C2E66 /* Main.storyboard */; };
+		FB564B2A1E26F0D8007C2E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB564B291E26F0D8007C2E66 /* Assets.xcassets */; };
+		FB564B2D1E26F0D8007C2E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB564B2B1E26F0D8007C2E66 /* LaunchScreen.storyboard */; };
+		FB564B381E26F6B2007C2E66 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = FB564B371E26F6B2007C2E66 /* NSString+Util.m */; };
+		FB564B3D1E28A849007C2E66 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB564B3C1E28A849007C2E66 /* Accelerate.framework */; };
+		FB564B451E2D49F8007C2E66 /* Brad-Sucks--Total-Breakdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = FB564B441E2D49F8007C2E66 /* Brad-Sucks--Total-Breakdown.wav */; };
+		FB564B471E2D6CBD007C2E66 /* Brad-Sucks--Total-Breakdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB564B461E2D6CBD007C2E66 /* Brad-Sucks--Total-Breakdown.mp3 */; };
+		FB564B491E2DDA5E007C2E66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB564B481E2DDA5E007C2E66 /* AudioToolbox.framework */; };
+		FB7FBF2C1E3AA9EA00ED8BBD /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB7FBF2B1E3AA9EA00ED8BBD /* sample.m4a */; };
+		FB7FBF2E1E3ABAD300ED8BBD /* Sean-Fournier--Falling-For-You.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB7FBF2D1E3ABAD300ED8BBD /* Sean-Fournier--Falling-For-You.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB564B1A1E26F0D8007C2E66 /* AudioFingerprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioFingerprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB564B1E1E26F0D8007C2E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB564B201E26F0D8007C2E66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB564B211E26F0D8007C2E66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB564B231E26F0D8007C2E66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB564B241E26F0D8007C2E66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB564B271E26F0D8007C2E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB564B291E26F0D8007C2E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB564B2C1E26F0D8007C2E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB564B2E1E26F0D8007C2E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB564B361E26F6B2007C2E66 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		FB564B371E26F6B2007C2E66 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		FB564B3C1E28A849007C2E66 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		FB564B441E2D49F8007C2E66 /* Brad-Sucks--Total-Breakdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Brad-Sucks--Total-Breakdown.wav"; sourceTree = "<group>"; };
+		FB564B461E2D6CBD007C2E66 /* Brad-Sucks--Total-Breakdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Brad-Sucks--Total-Breakdown.mp3"; sourceTree = "<group>"; };
+		FB564B481E2DDA5E007C2E66 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FB7FBF2B1E3AA9EA00ED8BBD /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4a; sourceTree = "<group>"; };
+		FB7FBF2D1E3ABAD300ED8BBD /* Sean-Fournier--Falling-For-You.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sean-Fournier--Falling-For-You.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB564B171E26F0D8007C2E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB564B491E2DDA5E007C2E66 /* AudioToolbox.framework in Frameworks */,
+				FB564B3D1E28A849007C2E66 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB564B111E26F0D7007C2E66 = {
+			isa = PBXGroup;
+			children = (
+				FB564B1C1E26F0D8007C2E66 /* AudioFingerprint */,
+				FB564B1B1E26F0D8007C2E66 /* Products */,
+				FB564B3B1E28A849007C2E66 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB564B1B1E26F0D8007C2E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB564B1A1E26F0D8007C2E66 /* AudioFingerprint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB564B1C1E26F0D8007C2E66 /* AudioFingerprint */ = {
+			isa = PBXGroup;
+			children = (
+				FB564B441E2D49F8007C2E66 /* Brad-Sucks--Total-Breakdown.wav */,
+				FB564B461E2D6CBD007C2E66 /* Brad-Sucks--Total-Breakdown.mp3 */,
+				FB7FBF2D1E3ABAD300ED8BBD /* Sean-Fournier--Falling-For-You.mp3 */,
+				FB7FBF2B1E3AA9EA00ED8BBD /* sample.m4a */,
+				FB564B361E26F6B2007C2E66 /* NSString+Util.h */,
+				FB564B371E26F6B2007C2E66 /* NSString+Util.m */,
+				FB564B201E26F0D8007C2E66 /* AppDelegate.h */,
+				FB564B211E26F0D8007C2E66 /* AppDelegate.m */,
+				FB564B231E26F0D8007C2E66 /* ViewController.h */,
+				FB564B241E26F0D8007C2E66 /* ViewController.m */,
+				FB564B261E26F0D8007C2E66 /* Main.storyboard */,
+				FB564B291E26F0D8007C2E66 /* Assets.xcassets */,
+				FB564B2B1E26F0D8007C2E66 /* LaunchScreen.storyboard */,
+				FB564B2E1E26F0D8007C2E66 /* Info.plist */,
+				FB564B1D1E26F0D8007C2E66 /* Supporting Files */,
+			);
+			path = AudioFingerprint;
+			sourceTree = "<group>";
+		};
+		FB564B1D1E26F0D8007C2E66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB564B1E1E26F0D8007C2E66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB564B3B1E28A849007C2E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB564B481E2DDA5E007C2E66 /* AudioToolbox.framework */,
+				FB564B3C1E28A849007C2E66 /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB564B191E26F0D8007C2E66 /* AudioFingerprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB564B311E26F0D8007C2E66 /* Build configuration list for PBXNativeTarget "AudioFingerprint" */;
+			buildPhases = (
+				FB564B161E26F0D8007C2E66 /* Sources */,
+				FB564B171E26F0D8007C2E66 /* Frameworks */,
+				FB564B181E26F0D8007C2E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioFingerprint;
+			productName = AudioFingerprint;
+			productReference = FB564B1A1E26F0D8007C2E66 /* AudioFingerprint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB564B121E26F0D8007C2E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Hoang Pham";
+				TargetAttributes = {
+					FB564B191E26F0D8007C2E66 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = XWJ55Q64DY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FB564B151E26F0D8007C2E66 /* Build configuration list for PBXProject "AudioFingerprint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB564B111E26F0D7007C2E66;
+			productRefGroup = FB564B1B1E26F0D8007C2E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB564B191E26F0D8007C2E66 /* AudioFingerprint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB564B181E26F0D8007C2E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB564B2D1E26F0D8007C2E66 /* LaunchScreen.storyboard in Resources */,
+				FB564B2A1E26F0D8007C2E66 /* Assets.xcassets in Resources */,
+				FB7FBF2E1E3ABAD300ED8BBD /* Sean-Fournier--Falling-For-You.mp3 in Resources */,
+				FB564B451E2D49F8007C2E66 /* Brad-Sucks--Total-Breakdown.wav in Resources */,
+				FB564B471E2D6CBD007C2E66 /* Brad-Sucks--Total-Breakdown.mp3 in Resources */,
+				FB7FBF2C1E3AA9EA00ED8BBD /* sample.m4a in Resources */,
+				FB564B281E26F0D8007C2E66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB564B161E26F0D8007C2E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB564B251E26F0D8007C2E66 /* ViewController.m in Sources */,
+				FB564B221E26F0D8007C2E66 /* AppDelegate.m in Sources */,
+				FB564B1F1E26F0D8007C2E66 /* main.m in Sources */,
+				FB564B381E26F6B2007C2E66 /* NSString+Util.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB564B261E26F0D8007C2E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB564B271E26F0D8007C2E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB564B2B1E26F0D8007C2E66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB564B2C1E26F0D8007C2E66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB564B2F1E26F0D8007C2E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB564B301E26F0D8007C2E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB564B321E26F0D8007C2E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XWJ55Q64DY;
+				INFOPLIST_FILE = AudioFingerprint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.px.AudioFingerprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB564B331E26F0D8007C2E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XWJ55Q64DY;
+				INFOPLIST_FILE = AudioFingerprint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.px.AudioFingerprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB564B151E26F0D8007C2E66 /* Build configuration list for PBXProject "AudioFingerprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB564B2F1E26F0D8007C2E66 /* Debug */,
+				FB564B301E26F0D8007C2E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB564B311E26F0D8007C2E66 /* Build configuration list for PBXNativeTarget "AudioFingerprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB564B321E26F0D8007C2E66 /* Debug */,
+				FB564B331E26F0D8007C2E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB564B121E26F0D8007C2E66 /* Project object */;
+}
